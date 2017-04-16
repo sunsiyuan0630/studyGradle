@@ -1,0 +1,32 @@
+Gradle build:
+    :compileJava
+    :processResource
+    :classes
+    :jar
+    :assemble
+    :compileTestJava
+    :processTestResources
+    :testClasses
+    :test
+    :check
+    :build
+
+Gradle clean:
+    :clean
+
+Gradle assemble:
+    :compileJava
+    :processResources
+    :classes
+    :jar
+    :assemble
+
+Gradle check:
+    :compileJava
+    :processResources
+    :classes
+    :compileTestJava
+    :processTestResources
+    :testClasses
+    :test
+    :check
